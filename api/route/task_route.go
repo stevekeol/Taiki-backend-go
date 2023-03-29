@@ -3,12 +3,12 @@ package route
 import (
 	"time"
 
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/api/controller"
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/bootstrap"
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/domain"
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/mongo"
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/repository"
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/usecase"
+	"Taiki-Server-Go/api/controller"
+	"Taiki-Server-Go/bootstrap"
+	"Taiki-Server-Go/domain"
+	"Taiki-Server-Go/mongo"
+	"Taiki-Server-Go/repository"
+	"Taiki-Server-Go/usecase"
 	"github.com/gin-gonic/gin"
 )
 

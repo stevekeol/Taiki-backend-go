@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/domain"
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/internal/tokenutil"
+	"Taiki-Server-Go/domain"
+	"Taiki-Server-Go/internal/tokenutil"
 )
 
 type loginUsecase struct {

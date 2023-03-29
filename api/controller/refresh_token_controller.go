@@ -3,8 +3,8 @@ package controller
 import (
 	"net/http"
 
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/bootstrap"
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/domain"
+	"Taiki-Server-Go/bootstrap"
+	"Taiki-Server-Go/domain"
 	"github.com/gin-gonic/gin"
 )
 

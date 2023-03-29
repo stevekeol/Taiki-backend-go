@@ -1,7 +1,7 @@
 # Taiki-backend-go
 A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authentication Middleware, Test, and Docker.
 
-> The go generator is replant from [Go Backend Clean Architecture](https://www.github.com/amitshekhariitbhu/go-backend-clean-architecture)
+> The go generator is replant from [Go Backend Clean Architecture](https://www.Taiki-Server-Go)
 
 **You can use this project as a template to build your Backend project in the Go language on top of this project.**
 
@@ -152,7 +152,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
 ### API documentation of Go Backend Clean Architecture
 
 <a href="https://documenter.getpostman.com/view/391588/2s8Z75S9xy" target="_blank">
-    <img alt="View API Doc Button" src="https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/button-view-api-docs.png?raw=true" width="200" height="60"/>
+    <img alt="View API Doc Button" src="https://Taiki-Server-Go/blob/main/assets/button-view-api-docs.png?raw=true" width="200" height="60"/>
 </a>
 
 ### Example API Request and Response

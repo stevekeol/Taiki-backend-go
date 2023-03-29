@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/amitshekhariitbhu/go-backend-clean-architecture/domain"
+	"Taiki-Server-Go/domain"
 	jwt "github.com/golang-jwt/jwt/v4"
 )
 
