@@ -1,28 +1,9 @@
 # Taiki-backend-go
-The clean web generator of backend in Go
-
 A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authentication Middleware, Test, and Docker.
 
-![Go Backend Clean Architecture](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-clean-architecture.png?raw=true)
+> The go generator is replant from [Go Backend Clean Architecture](https://www.github.com/amitshekhariitbhu/go-backend-clean-architecture)
 
 **You can use this project as a template to build your Backend project in the Go language on top of this project.**
-
-Before creating this project, I have gone through more than 20 projects related to the Go(Golang) Clean Architecture on GitHub.
-
-Thanks to all those projects, I learned a lot from all of those. As I keep saying:
-
-> The best way to learn to code is to code. But, to write good code, you will also have to read good code. Make a habit of reading good code. You can find many open-source projects on GitHub and start reading.
-
-Then for the implementation part, I combined all of my ideas, experiences, and learnings from those projects to create this project.
-
-And as always I would love to get feedback on my project. This helps everyone and most importantly me.
-
-Learn about this project architecture in detail from the blogs mentioned below:
-
-- [Go Backend Clean Architecture](https://amitshekhar.me/blog/go-backend-clean-architecture)
-- [Go JWT Authentication Middleware](https://amitshekhar.me/blog/go-jwt-authentication-middleware)
-- [Configuration with Viper in Go](https://amitshekhar.me/blog/configuration-with-viper-in-go)
-- [Test with Testify and Mockery in Go](https://amitshekhar.me/blog/test-with-testify-and-mockery-in-go)
 
 ## Architecture Layers of the project
 
@@ -33,17 +14,6 @@ Learn about this project architecture in detail from the blogs mentioned below:
 - Domain
 
 ![Go Backend Clean Architecture Diagram](s./assets/go-backend-arch-diagram.png)
-
-## About me
-
-Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
-
-You can connect with me on:
-
-- [Twitter](https://twitter.com/amitiitbhu)
-- [YouTube](https://www.youtube.com/@amitshekhar)
-- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
-- [GitHub](https://github.com/amitshekhariitbhu)
 
 ## Major Packages used in this project
 
@@ -58,13 +28,13 @@ You can connect with me on:
 
 ### Public API Request Flow without JWT Authentication Middleware
 
-![Public API Request Flow](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-arch-public-api-request-flow.png?raw=true)
+![Public API Request Flow](./assets/go-arch-public-api-request-flow.png)
 
 ### Private API Request Flow with JWT Authentication Middleware
 
 > JWT Authentication Middleware for Access Token Validation.
 
-![Private API Request Flow](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-arch-private-api-request-flow.png?raw=true)
+![Private API Request Flow](./assets/go-arch-private-api-request-flow.png)
 
 ### How to run this project?
 
