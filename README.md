@@ -47,10 +47,10 @@ We can run this Go Backend Clean Architecture project with or without Docker. He
 cd your-workspace
 
 # Clone this project into your workspace
-git clone https://github.com/amitshekhariitbhu/go-backend-clean-architecture.git
+git clone https://github.com/stevekeol/Taiki-backend-go.git
 
 # Move to the project root directory
-cd go-backend-clean-architecture
+cd Taiki-backend-go
 ```
 
 #### Run without Docker (!!!)
