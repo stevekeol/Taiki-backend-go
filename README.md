@@ -60,14 +60,14 @@ cd go-backend-clean-architecture
 - Install `MongoDB` if not installed on your machine(`mongo --version`).
 - Important: Change the `DB_HOST` to `localhost` (`DB_HOST=localhost`) in `.env` configuration file. `DB_HOST=mongodb` is needed only when you run with Docker.
 - Run `go run cmd/main.go`.
-- Access API using `http://localhost:8080`
+- Access API using `http://localhost:10000`
 
 #### Run with Docker
 
 - Create a file `.env` similar to `.env.example` at the root directory with your configuration.
 - Install Docker and Docker Compose.
 - Run `docker-compose up -d`.
-- Access API using `http://localhost:8080`
+- Access API using `http://localhost:10000`
 
 ### How to run the test?
 
