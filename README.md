@@ -53,11 +53,11 @@ git clone https://github.com/amitshekhariitbhu/go-backend-clean-architecture.git
 cd go-backend-clean-architecture
 ```
 
-#### Run without Docker
+#### Run without Docker (!!!)
 
 - Create a file `.env` similar to `.env.example` at the root directory with your configuration.
 - Install `go` if not installed on your machine.
-- Install `MongoDB` if not installed on your machine.
+- Install `MongoDB` if not installed on your machine(`mongo --version`).
 - Important: Change the `DB_HOST` to `localhost` (`DB_HOST=localhost`) in `.env` configuration file. `DB_HOST=mongodb` is needed only when you run with Docker.
 - Run `go run cmd/main.go`.
 - Access API using `http://localhost:8080`
